@@ -30,7 +30,8 @@ sequence lengths (k) until no new frequent patterns are found. It calls generate
 6. Perform GSP algorithm for each category: Applies the GSP algorithm for each category using the defined example datasets and the
 minimum support threshold.</p>
 <p align="justify">
-7. Output the frequent sequential patterns for each category: Prints the frequent sequential patterns along with their support counts
+7. Output the frequent sequential patterns for each category: Prints the frequent sequential patterns 
+    along with their support counts
 for each wear category.</p>
 <p align="justify">
 8. Visulaize the sequence patterns using matplotlib.
@@ -67,8 +68,11 @@ bottom_wear_data = [
 ]
 party_wear_data = [
  ["cocktail_dress", "evening_gown", "blazer"],
- ["party_dress", "formal_dress", "suit"],["party_dress", "formal_dress", "suit"],
- ["party_dress", "formal_dress", "suit"],["party_dress", "formal_dress", "suit"],["party_dress"],["party_dress"],
+ ["party_dress", "formal_dress", "suit"],
+ ["party_dress", "formal_dress", "suit"],
+ ["party_dress", "formal_dress", "suit"],
+ ["party_dress", "formal_dress", "suit"],
+ ["party_dress"],["party_dress"],
  # Add more sequences for party wear
 ]
 #Minimum support threshold
